@@ -10,7 +10,9 @@ namespace Parcial_2_programacion.Models
     {
         [Key]
         public string NombreID { get; set; }
+        [Required]
         public string Detalle { get; set; }
+        [Required]
         public string Imagen { get; set; }
     }
 }
